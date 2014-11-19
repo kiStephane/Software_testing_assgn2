@@ -13,7 +13,6 @@ public class PowerTest extends TestCase {
 		assertEquals(0, Power.power(0, 12));
 	}
 	
-	
 	public void testIfRightEqualsToOneThenResultEqualLeft() {
 		assertEquals(3, Power.power(3, 1));
 	}
@@ -25,5 +24,6 @@ public class PowerTest extends TestCase {
 	public void testPostConditionIsVerified2() {
 		assertEquals(9, Power.power(3, 2));
 	}
+	
 
 }
